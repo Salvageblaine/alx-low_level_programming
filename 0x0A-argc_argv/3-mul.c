@@ -7,7 +7,7 @@
  *
  * @argv: argument vectors
  *
- * Return (0) Success
+ * Return: (0) Success
  */
 int main(int argc, char **argv)
 {
