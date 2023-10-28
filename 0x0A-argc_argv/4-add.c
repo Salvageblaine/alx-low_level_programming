@@ -2,12 +2,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * main - a program that prints add +ve numbers
- *
+ * main - a program that prints add positive numbers
  * @argc: argument counts
- *
  * @argv: argument vectors
- *
  * Returns: (0) success
  */
 int main(int argc, char *argv[])
