@@ -5,7 +5,7 @@
  * main - a program that prints add positive numbers
  * @argc: argument counts
  * @argv: argument vectors
- * Returns: (0) success
+ * Return: (0) success
  */
 int main(int argc, char *argv[])
 {
@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 		{
 			if (!isdigit(argv[i][j]))
 			{
-			printf("Error\n");
-			return (1);
+				printf("Error\n");
+				return (1);
 			}
 		}
 		add += atoi(argv[i]);
